@@ -9,7 +9,7 @@
 }
 
 @mixin dot($pl: 0.25rem, $pr: 0.25rem) {
-  content: '\2022';
+  content: "\2022";
   padding-left: $pl;
   padding-right: $pr;
 }
@@ -479,7 +479,7 @@ header {
 
   &::after {
     display: flex;
-    content: '';
+    content: "";
     position: relative;
     background: linear-gradient(transparent, var(--card-bg) 70%);
     height: $curtain-height;
@@ -542,7 +542,7 @@ header {
   @include label(inherit, 400, inherit);
 
   &::after {
-    content: ':';
+    content: ":";
   }
 }
 

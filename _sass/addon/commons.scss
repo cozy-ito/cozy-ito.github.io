@@ -79,6 +79,7 @@ img {
   max-width: 100%;
   height: auto;
   transition: all 0.35s ease-in-out;
+  border-radius: 10px;
 
   .blur & {
     $blur: 20px;
@@ -379,6 +380,13 @@ main {
 
   h1 {
     margin-top: 2rem;
+  }
+
+  h2 {
+    border-bottom-width: 3px;
+    border-bottom-color: var(--site-title-color);
+    border-bottom-style: dashed;
+    padding-bottom: 5px;
   }
 
   p {

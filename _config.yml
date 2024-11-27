@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: 넓은 바다, 작은 기록 # the main title
 
-tagline: Developer Ito # it will display as the subtitle
+tagline: Developer 이토 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   넓은 코딩 바다 속을 탐험하며 알아낸 것들을 하나씩 쌓아가는 작은 블로그입니다.
