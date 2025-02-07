@@ -4,7 +4,7 @@ description: 객체로 배열을 만들어 본다니? 이건 못 참지.
 author: 이토
 date: 2025-02-07 13:32:00 +0900
 categories: [개발, 자바스크립트]
-tags: [자바스크립트, 객체, 유사배열, 이터러블, 이터레이터, 배열 최적화 전략]
+tags: [자바스크립트, 객체, 유사배열, 이터러블, 이터레이터]
 pin: false
 mermaid: true
 writing_time: 287
@@ -366,6 +366,7 @@ console.log(Array.isArray(array)); // true
 
 
 ## Reference
-- [MDN - Iteration 프로토콜](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Iteration_protocols#iterable)
-- [MDN - `Array.isArray()`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
-- [Witch-Work - JS 탐구생활 - exotic object](https://witch.work/ko/posts/javascript-exotic-object?utm_source=chatgpt.com)
+
+| [MDN - Iteration 프로토콜](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Iteration_protocols#iterable)
+| [MDN - `Array.isArray()`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
+| [Witch-Work - JS 탐구생활 - exotic object](https://witch.work/ko/posts/javascript-exotic-object?utm_source=chatgpt.com)
