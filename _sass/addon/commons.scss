@@ -420,10 +420,21 @@ main {
   }
 }
 
+//* Post Text 관련
 .content {
   font-size: 1.08rem;
   margin-top: 2rem;
   overflow-wrap: break-word;
+
+  strong {
+    font-weight: 800;
+    color: var(--toc-highlight);
+
+    code {
+      font-weight: 800;
+      color: var(--toc-highlight);
+    }
+  }
 
   a {
     &.popup {

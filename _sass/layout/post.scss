@@ -138,6 +138,23 @@ header {
   }
 }
 
+.post-below-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: var(--card-header-bg);
+  border-radius: 0.5rem;
+
+  p {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin-bottom: 0;
+  }
+}
+
 .post-navigation {
   .btn {
     @extend %btn-post-nav;
