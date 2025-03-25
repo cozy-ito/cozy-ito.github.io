@@ -21,7 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Chirpy 테마는 git 히스토리 정보가 필요함
+          fetch-depth: 0 # Chirpy 테마는 git 히스토리가 필요할 수 있음
 
       - name: Remove platform-specific Gemfile.lock
         run: rm -f Gemfile.lock
@@ -31,25 +31,17 @@ jobs:
         with:
           ruby-version: "3.3"
           bundler-cache: true
-          cache-version: 1 # 캐시 버전 증가
-
-      # 빌드 전 Chirpy 테마 설치 확인
-      - name: Ensure Chirpy theme is installed
-        run: |
-          bundle config set --local path vendor/bundle
-          bundle install
-
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
+          cache-version: 1
 
       - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: "_site"
 
   deploy:
     environment:

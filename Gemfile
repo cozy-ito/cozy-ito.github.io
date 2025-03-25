@@ -5,7 +5,7 @@ source "https://rubygems.org"
 # Jekyll 직접 지정
 gem "jekyll", "~> 4.3.0"
 
-# Chirpy 테마 직접 지정 (gemspec 대신)
+# Chirpy 테마 직접 지정
 gem "jekyll-theme-chirpy", "~> 6.0"
 
 # 필요한 Jekyll 플러그인
