@@ -20,3 +20,6 @@ package-lock.json
    
 # Misc
 # assets/js/dist  ### 주석 처리
+
+# 마크다운 템플릿 파일
+2024-11-05-text-and-typography.md
